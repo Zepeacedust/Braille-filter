@@ -11,13 +11,14 @@ html_top = """<!doctype html>
 <html>
 <head>
 <title>Braille Image</title>
+<style type="text/css">
+@font-face {font-family: "CascadiaMono"; src: url("./CascadiaMono.ttf");}
+body {font-size:2px; background-color: black; color: white; font-family: "CascadiaMono";}
+</style>
 </head>
-<body style="font-size:2px; background-color: black; color: white;">
-<tt>
-<pre>
+<body>
 """
-html_bot = """</pre>
-</tt>
+html_bot = """
 </body>
 </html>"""
 
