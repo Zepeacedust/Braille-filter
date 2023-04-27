@@ -17,8 +17,9 @@ body {font-size:2px; background-color: black; color: white; font-family: "Cascad
 </style>
 </head>
 <body>
+<pre>
 """
-html_bot = """
+html_bot = """</pre>
 </body>
 </html>"""
 
